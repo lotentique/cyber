@@ -1,0 +1,27 @@
+activiter 2
+
+1)-Linux est basé sur DAC (controle d'acces discontrole d'acces)
+2)-Les différentes manières de représenter l'autorisation de fichier sous Linux sont:
+proprietaire c'est l'utilisateure qui a cree le fichier,groupe pas forcement le groupe du propritaire,les autre ce qui ne sont pas dans un groupe, et les droit sont rwx(r->lecture,w->exriture,x->execution) 
+exemple rwxrwxrwx nom fichier : les trois premier correspond aux droits du propreitaire ensuit le groupe et les trois desrnier les autres
+
+3-
+
+
+4)
+* /bin :c'est des fichier accessible avec les droit de user semple ou root
+* /sbin :c'est comme le /bin mais accessible que par root
+
+5)
+sudo chown Tom:GoMyCode file.txt
+6)
+rwxr-xw-  => 75
+rwx--xr--
+
+rwxr-x-w-  octal(752) bin(111101010)
+rwx--xr--  octal(714) bin(111001100)
+
+7)
+/etc/passwd :contient les information des utilisateur tel que le nom et le mot de passe
+ /etc/shadow :contient les information sur l'utilisateur tel que le hash utilise 
+
